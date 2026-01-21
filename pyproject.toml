@@ -1,0 +1,14 @@
+[project]
+name = "diagonal-wipe-video-compare"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "opencv-python>=4.13.0.90",
+]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.5.1",
+]
