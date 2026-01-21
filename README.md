@@ -29,7 +29,6 @@ uv run main.py --video-a-dir ./OldVideo --video-b-dir ./NewVideo --video-source-
 - `--video-source-dir PATH` prepend a source strip (must align length with A/B).
 - `--t-static SECS` / `--t-wipe SECS` control hold and wipe durations.
 - `--skip-seconds SECS` trim the start of each sequence before processing.
-- `--
 - `--repeat-final-frames N` freeze the final frame for N extra outputs.
 - `--out-width/--out-height` final padded dimensions (ensures even sizes for ffmpeg).
 - `--text-a/--text-b` labels; `--text-a-pos/--text-b-pos` positions.
